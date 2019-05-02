@@ -1,0 +1,6 @@
+name: Site Information Form Alteration 
+type: module
+description: Custom module to add new field in site information form in admin
+author: Lokesh
+core: 8.x
+package: Custom
