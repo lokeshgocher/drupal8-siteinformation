@@ -6,7 +6,7 @@
 use \Drupal\Core\Form\FormStateInterface;
 
 /**
-* Implements hook_form_FORM_ID_alter(). to add new field in site information form
+* Implements hook_form_alter(). to add new field in site information form
 */
 function siteform_form_alter(&$form, FormStateInterface $form_state, $form_id) {
  // dpm($form_id);
