@@ -1,10 +1,8 @@
 <?php
 namespace Drupal\siteform\Plugin\rest\resource;
 
-//use Drupal\rest\ModifiedResourceResponse;
 use Drupal\rest\Plugin\ResourceBase;
 use Drupal\rest\ResourceResponse;
-use Drupal\search_api\Query\QueryInterface;
 use Drupal\Core\node\Entity\Node;
 use Symfony\Component\HttpKernel\Exception\AccessDeniedHttpException;
 
@@ -62,8 +60,12 @@ Class SiteResource extends ResourceBase {
 							{
 								throw new AccessDeniedHttpException('Access Denied');
 							}
-				    // return new ResourceResponse('Page doesn\'t exist',400);
+				   
 				}
+	                        else
+							{
+								throw new AccessDeniedHttpException('Access Denied');
+							}
 				
   }
 	
