@@ -1,9 +1,4 @@
 # site fomr
 
-siteform.get:
-  path: 'api/page_json'
-  defaults: { _controller: '\Drupal\siteform\Controller\SiteController::get_node' }
-  methods:  [GET]
-  requirements:
-    _access: 'TRUE'
+
 
